@@ -26,8 +26,8 @@ public class DayItem
     public string TodayBg      { get; set; } = "Transparent";
     public string TodayWeight  { get; set; } = "Normal";
 }
-
-[SettingsPageInfo("dutylist.jimmyxiao.settings", "DutyList 设置")]
+[FullWidthPage]
+[SettingsPageInfo("dutylist.jimmyxiao.settings", "DutyList 设置", "\uECD1", "\uECD1")]
 public partial class DutySettingsPage : SettingsPageBase
 {
     private RotationGroup? _currentGroup;
